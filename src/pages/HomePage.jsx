@@ -20,6 +20,8 @@ const HomePage = ({ filterbyname }) => {
     },
   });
 
+  console.log('rrcommened', recommendedUsers)
+
   const { data: posts , isLoading, error} = useQuery({
     queryKey: ["posts"],
     queryFn: async () => {

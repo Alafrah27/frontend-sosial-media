@@ -10,6 +10,7 @@ function RecommendedForSmallPhons() {
       return res.data;
     },
   });
+  console.log(recommendedUsers);
   return (
     <div className=" sm:block lg:hidden col-span-1 lg:col-span-1">
       <div className="bg-secondary rounded-lg shadow p-4">

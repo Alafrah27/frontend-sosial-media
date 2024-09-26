@@ -140,7 +140,7 @@ function RecommendedUser({ user }) {
         />
         <div>
           <h3 className="font-semibold text-sm">{user.name}</h3>
-          <p className="text-xs text-info">{user.headline}</p>
+          <p className="text-xs text-info">{user?.headline}</p>
         </div>
       </Link>
       {renderButton()}
